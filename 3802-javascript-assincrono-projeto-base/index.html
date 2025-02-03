@@ -38,6 +38,46 @@
             </ul>
         </nav>
     </aside>
+
+    <main>
+        <div class="container-upload-imagem">
+            <div class="container-imagem">
+                <img class="main-imagem" src="img/imagem1.png" alt="">
+            </div>
+            <button>Carregar Imagem</button>
+            <div class="container-imagem-nome">
+                <p>image_projeto.png</p>
+                <img src="./img/close-black.svg" alt="">
+            </div>
+        </div>
+        <div class="container-descricao">
+            <h2>Novo Projeto</h2>
+            <form>
+                <div>
+                    <label for="nome">Nome do Projeto</label>
+                    <input type="text" id="nome" name="nome" />
+                </div>
+                <div>
+                    <label for="descricao">Descrição</label>
+                    <textarea type="text" id="descricao" name="descricao"></textarea>
+                </div>
+                <div>
+                    <label for="categoria">Tags</label>
+                    <input type="text" id="categoria" name="categoria" />
+                </div>
+                <ul class="lista-tags">
+                    <li>
+                        <p>Front-End</p>
+                        <img src="./img/close-black.svg" alt="x de fechar">
+                    </li>
+                </ul>
+                <div class="container-botoes">
+                    <button class="botao-descatar">Descatar</button>
+                    <button class="botao-publicar">Publicar</button>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
