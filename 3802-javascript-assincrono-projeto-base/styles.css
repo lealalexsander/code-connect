@@ -67,3 +67,40 @@ aside {
 }
 
 
+main {
+    background-color: var(--itens-background);
+    border-radius: 10px;
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 40px;
+    font-weight: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+form div label {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form div input, textarea {
+    width: 100%;
+    padding: 8px 16px;
+    background-color: var(--secondary-color);
+    border: none;  
+    border-radius: 4px;
+    font-family: var(--font-family);
+    line-height: 22.5px;
+
+}
