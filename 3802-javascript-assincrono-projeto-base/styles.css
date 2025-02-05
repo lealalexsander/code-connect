@@ -150,7 +150,7 @@ textarea {
 .botao-descartar::after {
     content: "";
     background-image: url(./img/trash.svg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 15px;
     height: 15px;
