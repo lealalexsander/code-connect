@@ -123,6 +123,8 @@ textarea {
 
 .lista-tags {
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .container-botoes {
