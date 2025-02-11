@@ -90,3 +90,18 @@ botaoPublicar.addEventListener("click", (evento) => {
     const descricaoDoProjeto = document.getElementById("descricao").value;
     const tagsProjeto = Array.from(listaTags.querySelectorAll("p")).map((tag) => tag.textContent);
 })
+
+async function publicarProjeto(nomeDoProjeto, descricaoDoProjeto, tagsProjeto) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const deuCerto = Math.random() > 0.5;
+
+            if (deuCerto) {
+                resolve("Projeto publicado com sucesso.");
+            } else {
+                reject("Erro ao publicar o projeto");
+            }
+        })
+    })
+    
+}
