@@ -126,3 +126,11 @@ botaoDescartar.addEventListener("click", (evento) => {
 
     listaTags.innerHTML = "";
 })
+
+
+const botaoMenu = document.querySelector(".menu-hamburguer");
+const menuLateral = document.querySelector("aside");
+
+botaoMenu.addEventListener("click", () => {
+    menuLateral.classList.toggle("menu-ativo");
+});
