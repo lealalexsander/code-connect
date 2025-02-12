@@ -277,9 +277,10 @@ textarea {
     }
 
     main {
+        margin-top: 27em;
         flex-direction: column;
         width: 98%;
-        height: 70em;
+        height: 300%;
         padding: 16px;
     }
 
