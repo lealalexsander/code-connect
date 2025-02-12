@@ -279,7 +279,7 @@ textarea {
     main {
         flex-direction: column;
         width: 98%;
-        height: auto;
+        height: 70em;
         padding: 16px;
     }
 
@@ -323,12 +323,13 @@ textarea {
         position: fixed;
         top: 20px;
         left: 20px;
-        background: none;
-        border: none;
+        background: var(--itens-background);
+        border: solid var(--primary-color) 1px;
         font-size: 32px;
         color: var(--text-color);
         cursor: pointer;
         z-index: 1100;
+        padding: 0 5px 2px 5px;
     }
 }
     
